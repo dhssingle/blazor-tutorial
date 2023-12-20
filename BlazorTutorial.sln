@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{38846074-D041-481B-B906-000BE33E6057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Models", "src\EmployeeManagement.Models\EmployeeManagement.Models.csproj", "{1C7C1C5B-A043-4B17-B916-0A6EA0478756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Web", "src\EmployeeManagement.Web\EmployeeManagement.Web.csproj", "{C36B4A2F-944C-4263-949E-234B5B2F466B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C7C1C5B-A043-4B17-B916-0A6EA0478756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7C1C5B-A043-4B17-B916-0A6EA0478756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7C1C5B-A043-4B17-B916-0A6EA0478756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7C1C5B-A043-4B17-B916-0A6EA0478756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36B4A2F-944C-4263-949E-234B5B2F466B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36B4A2F-944C-4263-949E-234B5B2F466B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36B4A2F-944C-4263-949E-234B5B2F466B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36B4A2F-944C-4263-949E-234B5B2F466B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C7C1C5B-A043-4B17-B916-0A6EA0478756} = {38846074-D041-481B-B906-000BE33E6057}
+		{C36B4A2F-944C-4263-949E-234B5B2F466B} = {38846074-D041-481B-B906-000BE33E6057}
+	EndGlobalSection
+EndGlobal
