@@ -99,3 +99,8 @@ a,
         transform: rotate(360deg)
     }
 }
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+}
