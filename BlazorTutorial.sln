@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Models",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Web", "src\EmployeeManagement.Web\EmployeeManagement.Web.csproj", "{C36B4A2F-944C-4263-949E-234B5B2F466B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Api", "src\EmployeeManagement.Api\EmployeeManagement.Api.csproj", "{CAFEDCE1-42CB-4BCA-B005-7799E0F8DE2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{C36B4A2F-944C-4263-949E-234B5B2F466B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C36B4A2F-944C-4263-949E-234B5B2F466B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C36B4A2F-944C-4263-949E-234B5B2F466B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFEDCE1-42CB-4BCA-B005-7799E0F8DE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFEDCE1-42CB-4BCA-B005-7799E0F8DE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFEDCE1-42CB-4BCA-B005-7799E0F8DE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFEDCE1-42CB-4BCA-B005-7799E0F8DE2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1C7C1C5B-A043-4B17-B916-0A6EA0478756} = {38846074-D041-481B-B906-000BE33E6057}
 		{C36B4A2F-944C-4263-949E-234B5B2F466B} = {38846074-D041-481B-B906-000BE33E6057}
+		{CAFEDCE1-42CB-4BCA-B005-7799E0F8DE2B} = {38846074-D041-481B-B906-000BE33E6057}
 	EndGlobalSection
 EndGlobal

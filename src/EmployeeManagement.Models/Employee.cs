@@ -7,6 +7,6 @@ public class Employee
     public string Email { get; set; }
     public DateTime DateOfBrith { get; set; }
     public Gender Gender { get; set; }
-    public Department Department { get; set; }
+    public int DepartmentId { get; set; }
     public string PhotoPath { get; set; }
 }
